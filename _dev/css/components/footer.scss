@@ -1,5 +1,6 @@
 #footer {
   padding-top: 2.5rem;
+  background: $white;
 }
 
 #blockEmailSubscription_displayFooterBefore {
@@ -192,7 +193,7 @@
 }
 
 .footer-container {
-  padding-top: $extra-large-space;
+  padding-top: $extra-large-space / 2;
   overflow: hidden;
 
   .h3,
