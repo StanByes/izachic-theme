@@ -56,7 +56,7 @@
           {include file='_partials/notifications.tpl'}
         {/block}
 
-            <div class="d-flex">
+            <div class="d-flex mb-2">
                 <img
                     class="logo img-fluid bordered-img"
                     src="{$shop.logo_details.src}"

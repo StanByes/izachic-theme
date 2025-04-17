@@ -636,3 +636,9 @@ input[type="number"] {
   padding-right: 15%;
   width: 50%;
 }
+
+@media (max-width: 768px) {
+  .bordered-img {
+    width: 80%;
+  }
+}
