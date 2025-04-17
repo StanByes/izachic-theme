@@ -56,6 +56,15 @@
           {include file='_partials/notifications.tpl'}
         {/block}
 
+            <div class="d-flex">
+                <img
+                    class="logo img-fluid bordered-img"
+                    src="{$shop.logo_details.src}"
+                    alt="{$shop.name}"
+                    width="{$shop.logo_details.width}"
+                    height="{$shop.logo_details.height}"
+                >
+          </div>
         {hook h="displayWrapperTop"}
         <div class="container">
           {block name='breadcrumb'}

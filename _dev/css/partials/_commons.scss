@@ -622,3 +622,17 @@ input[type="number"] {
 .ui-autocomplete.ui-front {
   z-index: 999;
 }
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.bordered-img {
+  border: solid $white 0.5vi;
+  border-radius: 3.5%;
+  padding-left: 15%;
+  padding-right: 15%;
+  width: 50%;
+}
