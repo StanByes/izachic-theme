@@ -30,7 +30,7 @@
 
 {block name='header_nav'}
   <nav class="header-nav">
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="hidden-sm-down">
           <div class="col-md-5 col-xs-12">
@@ -56,19 +56,9 @@
 
 {block name='header_top'}
   <div class="header-top">
-    <div class="container">
+    <div class="container-fluid">
        <div class="row">
-        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
-          {if $shop.logo_details}
-            {if $page.page_name == 'index'}
-              <h1>
-                {renderLogo}
-              </h1>
-            {else}
-              {renderLogo}
-            {/if}
-          {/if}
-        </div>
+        <div class="col-md-1"></div>
         <div class="header-top-right col-md-10 col-sm-12 position-static">
           {hook h='displayTop'}
         </div>
