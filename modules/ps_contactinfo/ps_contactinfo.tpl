@@ -37,6 +37,8 @@
   <p class="h4 text-uppercase block-contact-title hidden-sm-down">{l s='Store information' d='Shop.Theme.Global'}</p>
   <div id="contact-infos" class="collapse">
     {$contact_infos.address.formatted nofilter}
+    <br>
+    {$contact_infos.details}
     {if $contact_infos.phone}
       <br>
       {* [1][/1] is for a HTML tag. *}
